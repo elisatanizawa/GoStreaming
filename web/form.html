@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoStreaming</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="container">
+    <h2 id="titulo-form">Cadastre-se para mais informações</h2>
+    <ul id="mensagens-erro"></ul>
+    <form id="form-cadastro">
+        <div class="grupo">
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome" type="text" placeholder="digite o nome completo" class="campo">
+        </div>
+        <div class="grupo">
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="email" placeholder="digite o seu email" class="campo">
+        </div>
+        
+        <button id="adicionar-paciente" class="botao bto-principal">Cadastrar</button>
+    </form>
+</section>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script src="js/ip.js"></script>
+<script src="js/horario.js"></script>
+<script src="js/firebase.js"></script>
+</body>
+</html>
+53 GAMA-SEMANA2/js/firebase.js
+@@ -0,0 +1,53 @@
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBts4x0s8sF7Mrae6mi-riVrhxZdBbCyrw",
+    authDomain: "gostreaming-gama.firebaseapp.com",
+    databaseURL: "https://gostreaming-gama.firebaseio.com",
+    projectId: "gostreaming-gama",
+    storageBucket: "gostreaming-gama.appspot.com",
+    messagingSenderId: "498080195977"
+  };
+  firebase.initializeApp(config);
+  //reference messa collection
+  var messagesRef = firebase.database().ref("messages");
+document.getElementById("form-cadastro").addEventListener("submit", cadastroForm);
+function cadastroForm(c){
+	c.preventDefault();
+	//Get values
+	var nome = getInputVal("nome");
+	var email = getInputVal("email");
+	var hora = getData();
+	var ip = getIp();
+	//salvar dados
+	
+	saveDados(nome,email,hora,ip);
+	//limpa form
+	document.querySelector("#form-cadastro").reset();
+}
+//funçao para pegar form values
+function getInputVal(id){
+	return document.getElementById(id).value;
+}
+//salvar dados no firebase
+function saveDados(nome,email,hora,ip){
+	var newDados = messagesRef.push();
+	newDados.set({
+		nome: nome,
+		email: email,
+		hora: getData(),
+		ip: getIp()
+	});
+}
+20 GAMA-SEMANA2/js/horario.js
+@@ -0,0 +1,20 @@
+function getData(data = new Date()){
+	var hora = data.getHours();
+	var minuto = data.getMinutes();
+	var segundos = data.getSeconds();
+	
+	var dia = data.getDate();
+	var mes = data.getMonth()+1;
+	var ano = data.getFullYear();
+	if(dia.toString().length == 1) dia = "0"+ dia;
+	if(mes.toString().length == 1) mes = "0"+ mes;
+	if(hora.toString().length == 1) hora = "0"+ hora;
+	if(minuto.toString().length == 1) minuto = "0"+ minuto;
+	if(segundos.toString().length == 1) segundos = "0"+ segundos;
+	return ano +"-"+mes+"-"+ dia + " " + hora +":"+ minuto + ":" + segundos;
+}
+console.log(getData());
+37 GAMA-SEMANA2/js/ip.js
+@@ -0,0 +1,37 @@
+function getIp(callback)
+{
+    function response(s)
+    {
+        callback(window.userip);
+        s.onload = s.onerror = null;
+        document.body.removeChild(s);
+    }
+    function trigger()
+    {
+        window.userip = false;
+        var s = document.createElement("script");
+        s.async = true;
+        s.onload = function() {
+            response(s);
+        };
+        s.onerror = function() {
+            response(s);
+        };
+        s.src = "https://l2.io/ip.js?var=userip";
+        document.body.appendChild(s);
+    }
+    if (/^(interactive|complete)$/i.test(document.readyState)) {
+        trigger();
+    } else {
+        document.addEventListener('DOMContentLoaded', trigger);
+    }
+}
+getIp(function (ip) {
+    console.log(ip);
+}); 

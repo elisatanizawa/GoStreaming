@@ -1,0 +1,16 @@
+/* Header */
+
+.navbar {
+	margin-bottom:0;
+	font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+.jumbotron {
+	background: #07234F;
+	color: #FFF;
+	padding: 20px 0;
+}
+
+.jumbotron {
+	font-size: 10px;
+}
