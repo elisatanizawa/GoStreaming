@@ -1,4 +1,3 @@
-
 function getIp() {
 
  var xhr = new XMLHttpRequest();
