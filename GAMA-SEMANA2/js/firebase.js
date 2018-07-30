@@ -23,7 +23,8 @@ function cadastroForm(c){
 	var nome = getInputVal("nome");
 	var email = getInputVal("email");
 	var hora = getData();
-	var ip = getIp(ip);
+	var ip = getIp();
+
 
 	//salvar dados
 	
@@ -48,7 +49,8 @@ function saveDados(nome,email,hora,ip){
 		nome: nome,
 		email: email,
 		hora: getData(),
-		ip: getIp(ip)
+		ip: getIp()
+
 
 
 	});
