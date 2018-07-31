@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoStreaming</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/formStyle.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/formValida.js"></script>
+</head>
+<body>
+	<section class="container">
+    <h2 id="titulo-form">Cadastre-se para mais informações</h2>
+   	<span id="geral"></span>
+    <form id="form-cadastro">
+        <div class="grupo">
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome" type="text" placeholder="digite o nome completo" class="campo">
+            <span id="p1"></span>
+        </div>
+        <div class="grupo">
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="email" placeholder="digite o seu email" class="campo">
+            <span id="p2"></span>
+        </div>
+        
+        <button id="addLead" class="botao">Cadastrar</button>
+    </form>
+</section>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script src="js/ip.js"></script>
+<script src="js/horario.js"></script>
+<script src="js/firebase.js"></script>
+
+</body>
+</html>
