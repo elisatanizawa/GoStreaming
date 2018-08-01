@@ -14,3 +14,14 @@
 .jumbotron {
 	font-size: 10px;
 }
+.splash{
+	background:url(../img/show-lb-611333-unsplash.jpg) no-repeat;
+	height: 219px;
+    position: relative;
+}
+.splash h1{
+	background: #fff;
+	position: absolute;
+    bottom: 0;
+    padding: 5px;
+}

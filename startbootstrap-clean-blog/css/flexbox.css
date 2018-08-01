@@ -2,9 +2,7 @@
 	display: flex;
 	align-content: center;
 	justify-content: flex-end;
-	height: 50px;
-	width:50%;
-	float:right;
+	height: 80px;
 }
 .conteudo-principal{
 	display: flex;
@@ -20,18 +18,18 @@
 }
 .container-form{
 	display: flex;
-	width: 279px;
+	width: 300px;
 	flex-direction: column;
 	height: 300px;
 	margin-left: 1%;
 	position: sticky;
 	top: 0px;
-	background-color: yellow;
-	padding: 15px;
+	background-color: #f7efef;
+	padding: 10px 10px 10px 10px;
 }
 .footer{
-	display: flex;
-	background-color: #eaeaea;
+	display: table-table-footer-group;
+	background-color: #F7F7F7;
 }
 .footer-flex{
 	display: flex;
@@ -55,26 +53,28 @@
 	margin-left:185px
 }
 .botao {
-	width: 225px;
+	width: 100px;
 	height: 40px;
-	margin-top: 20px;
-	border: 1px solid #dddddd;
+	margin-top: auto;
+	border: 0px solid #dddddd;
 	border-radius: 20px;
-	background-color: white;
-	color: #337ab7;
+	background-color: #C4000E;
+	color: #FFF;
 }
 input{
 	border: 1px solid #dddddd;
 	width: 180px;
 }
 .footer-link{
-	background-color: #eaeaea;
+	background-color: #f2f2f2;
 }
 .sobre-link{
 	color:black;
 }
 .footer{
+	padding: 30px;
 	display: flex;
-	justify-content: space-around;
-	align-content: center;
+	justify-content: flex-end;
+	align-content: stretch;
+	flex-direction: row;
 }
