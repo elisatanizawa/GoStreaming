@@ -28,12 +28,13 @@ body {
 footer{
 	background-color: #B20A00;
 }
-.titulo{
-	font-family: 'Roboto', sans-serif;
-}
 .titulo-pr{
 	font-family: 'Roboto', sans-serif;
 }
+.titulo{
+	font-family: 'Roboto', sans-serif;
+}
+
 .subtitulo{
 	font-family:'arial'; 
 	font-style: italic;
