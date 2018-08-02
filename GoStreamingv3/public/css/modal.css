@@ -1,0 +1,38 @@
+#modal{
+
+background: rgba(0, 0, 0, 0.5);
+
+width: 100%;
+
+height: 100%;
+
+position: fixed;
+
+top: 0px;
+
+display: none;
+z-index: 2000;
+
+}.modal-box{
+
+background: #d7d7d7;
+
+width: 50%;
+
+height: 580px;
+
+position: absolute;
+
+left: 50%;
+
+top: 30%;
+
+margin-left: -27%;
+
+margin-top: -178px;
+
+padding: 30px;
+
+z-index: 2000;
+
+}
