@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto" rel="stylesheet"> 
-	<script language="JavaScript" type="text/javascript" src="js/cidades-estados-1.4-utf8.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123084855-1"></script>
 	<script>
@@ -21,14 +20,14 @@
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top meuMenu">
-		  <a class="navbar-brand" href="index.html"><img src="img/Logo.png" class="img-fluid" alt="Go Streaming, tudo sobre transmissão de video" width="130px"></a>
+		  <a class="navbar-brand" href="index.html"><img src="img/logo_nav.png" class="img-fluid logoMenu" alt="Go Streaming, tudo sobre transmissão de video" width="250px"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse itemMenu" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto ml-auto">
 		      <li class="nav-item">
-		      	<a class="nav-link" href="#">CONTATO</a>
+		      	<a class="nav-link" href="quem_somos.html">QUEM SOMOS</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -37,11 +36,11 @@
 	<main>
 		<div class="container-fluid mt-5">
 		  <div class="row">
-		    <div class="col-md-8 mt-5">
+		    <div class="col-md-8 mt-5 bannerTop">
 		    	<div class="card posts">
 		    	  <div class="card-body">
 					<!-- -->
-					<h2 class="text-center titulo-pr">Sua empresa está PREPARADA?</h2>
+					<h2 class="titulo">Sua empresa está PREPARADA?</h2>
 		    		<div class="embed-responsive embed-responsive-21by9">
 		    		  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/282627434"></iframe>
 		    		</div>
@@ -56,7 +55,7 @@
 		       <div class="card-body">
 		         <h5 class="card-title subtitulo">Como a tecnologia pode transformar a visão que o mercado tem do ensino à distância?</h5>
 		         <p class="card-text">
-					<p> Não há dúvidas que o ensino a distância (EAD) tem um papel importante na democratização do ensino superior. E tomada essa importância percebe-se um crescimento exponencial nos últimos 10 anos.</p>
+					Não há dúvidas que o ensino a distância (EAD) tem um papel importante na democratização do ensino superior. E tomada essa importância percebe-se um crescimento exponencial nos últimos 10 anos.</p>
 					
 		         <a href="tecnologia_inovacao_aliadas_crescimento.html">Continuar lendo...</a>
 		       </div>
@@ -81,16 +80,17 @@
 		       </div>
 		       <img class="card-img-top" src="img/img_camera.jpg" alt="Card image cap">
 		       <div class="card-body">
-		         <h5 class="card-title subtitulo"></h5>
-		         <p class="card-text"><p>As redes socias acabaram se tornando um meio de comunicação com mil e uma utilidades. Lá atrás, nos primórdios do século XXI, no famoso MSN, já era possível realizar chamadas de vídeo em tempo real, e dessa forma se  conectar com quem quer que estivesse a qualquer distância. </p>
-		         <a href="redes_sociais_acessibilidade_video_vivo.html">Continuar Lendo...</a>
+		        <h5 class="card-title subtitulo">Você sabia que é possível divulgar sua marca em streamings nas redes sociais?</h5>
+		         <p class="card-text">As redes socias acabaram se tornando um meio de comunicação com mil e uma utilidades. Lá atrás, nos primórdios do século XXI, no famoso MSN, já era possível realizar chamadas de vídeo em tempo real, e dessa forma se  conectar com quem quer que estivesse a qualquer distância. </p>
+				<a href="redes_sociais_acessibilidade_video_vivo.html">Continuar Lendo...</a>
 		       </div>
 		     </div>
 		    </div>
-		    <div class="col-md-4 mt-5">
+		    <div class="col-md-4 mt-5 formTop">
 		    	<div class="card">
 		    	  <div class="card-body">
-		    	    <p class="card-text titulo"><h3>Cadastre-se para receber nossos materiais gratuitos</h3></p>
+		    	    <p class="card-text"><h4 class="titulo">Descubra como fazer uma Live Profissional!</h4></p>
+		    	    <p class="card-text"><h6 class="subtitulo">Para acessar gratuitamente, basta preencher os campos abaixo:</h6></p>
 		    	    <form id="form-cadastro">
 		    	      <div class="form-group">
 		    	        <input type="text" class="form-control" id="nome" placeholder="Nome">
@@ -99,48 +99,15 @@
 		    	        <input type="email" class="form-control" id="email" placeholder="Email Corporativo">
 		    	      </div>
 		    	      <div class="form-group">
-		    	        <input type="text" class="form-control" id="porteEmpresa" placeholder="Porte da empresa">
+		    	        <input type="text" class="form-control" id="cargo" placeholder="Cargo">
 		    	      </div>
-		    	      <div class="form-group">
-		    	        <input type="text" class="form-control" id="setorEmpresa" placeholder="Setor de Atuação">
-		    	      </div>
-		    	      <div class="form-group">
-		    	        <input type="text" class="form-control" id="depto" placeholder="Departamento">
-		    	      </div>
-		    	      <div class="form-group">
-		    	      	<select id="estado4" class="campo form-control"></select>
-		    	      </div>
-		    	      <div class="form-group">
-		    	      	<select id="cidade4" class="campo form-control"></select>
-		    	      </div>
-		    	          	
-    	          	<script language="JavaScript" type="text/javascript" charset="utf-8">
-    	      	      new dgCidadesEstados({
-    	      	        cidade: document.getElementById('cidade4'),
-    	      	        estado: document.getElementById('estado4')
-    	      	      })
-    	      	    </script>
 		    	      <button type="submit" class="btn btn-danger btn-block">Cadastrar</button>
 		    	    </form>
 		    	  </div>
 		    	</div>
-		    	<!-- quem somos-->
-		    	<div class="card">
-		    	  <div class="card-body">
-		    	    <h3 class="card-title titulo">Quem somos</h5>
-		    	    <h5>Bem vindxs ao GoStreaming!</h5>
-						<p class="card-text">Somos um blog de que traz as novidades do mundo do streaming e queremos ajudar você  e seu negócio a fazer transmissões melhores, com dicas e novidades, para que você esteja sempre alinhado com o que acontece de mais novo e relevante no mercado. Em caso de dúvidas ou sugestões , entre em contato pelo gostreamingg@gmail.com.</p> 
-					<p>E nos acompanhe nas redes sociais abaixo:</p>
-		    	 	 <div class="col-md-4  link-social">
-						<a href="https://www.facebook.com/GoStreaming-735969890128400/"><i class="fab fa-facebook link-redes"></i></a>
-						<a href="https://www.linkedin.com/company/gostreamingg/"><i class="fab fa-linkedin link-redes"></i></a>
-						<a href="https://www.instagram.com/gostreamingg/"><i class="fab fa-instagram link-redes"></i></a>
-					</div>
-					</div>
-		    	</div>
-		    </div>
 		  </div>
 		</div>
+	</div>
 	</main>
 	<footer>
 		<div class="container-fluid sticky-bottom text-white">
