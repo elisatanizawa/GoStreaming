@@ -24,11 +24,7 @@ function cadastroForm(c){
 
 	var nome = getInputVal("nome");
 	var email = getInputVal("email");
-	var porteEmpresa = getInputVal("porteEmpresa");
-	var setorEmpresa = getInputVal("setorEmpresa");
-	var depto = getInputVal("depto");
-	var estado = getInputVal("estado4");
-	var cidade = getInputVal("cidade4");
+	var cargo = getInputVal("cargo");
 	var hora = getData();
 	var ip = getIp();
 	var tipo = "";
@@ -39,12 +35,15 @@ function cadastroForm(c){
 	}
 	
 
-	if(validaNome(nome) || validaEmail(email)){
-		alert('Nome incompleto ou E-mail Inválido');
+	if(validaNome(nome)){
+		alert('Nome incompleto ou com caractere inválido');
+	}else if(validaEmail(email)){
+		alert('Email inválido');
 	}else{
 		//salvar dados
 		alert('Obrigado pelo seu Cadastro!');
-		saveDados(nome,email,porteEmpresa,setorEmpresa,depto,estado,cidade,hora,ip,tipo);
+		saveDados(nome,email,cargo,hora,ip,tipo);
+		window.location = "thank_u.html";
 
 		//limpa form
 
@@ -59,18 +58,14 @@ function getInputVal(id){
 }
 //salvar dados no firebase
 
-function saveDados(nome,email,porteEmpresa,setorEmpresa,depto,estado,cidade,hora,ip,tipo){
+function saveDados(nome,email,cargo,hora,ip,tipo){
 	var newDados = messagesRef.push();
 
 
 	newDados.set({
 		nome: nome,
 		email: email,
-		porteEmpresa: porteEmpresa,
-		setorEmpresa: setorEmpresa,
-		depto: depto,
-		estado: estado,
-		cidade: cidade,
+		cargo: cargo,
 		hora: getData(),
 		ip: getIp(),
 		tipo: tipo
