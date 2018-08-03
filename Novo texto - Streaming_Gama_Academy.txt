@@ -1,0 +1,34 @@
+﻿# 3 ferramentas de streaming para fazer seu negócio bombar<.título>
+As ferramentas mais bacanas disponíveis no mercado para fazer essa tecnologia trabalhar a favor do seu negócio<.subtítulo>
+Provavelmente você já usou a tecnologia de streaming, mesmo que não se lembre, Você, provavelmente já gastou algumas horinhas assistindo aquela série debaixo das cobertas na pelo Netflix, não? Já deve ter gasto algum tempo assistindo à stories pelo Instagram ou algum conteúdo ao vivo, daquele famoso que você segue pelo Facebook.
+Se sim, você utilizou e consumiu a tecnologia streaming e estes são exemplos claros de como essa tecnologia afetou seus hábitos de consumo de conteúdo.
+O uso de transmissões de vídeo pelo internet se popularizou na última década e não há dúvidas de que é uma tecnologia que tem um poder de alcance e engajamento enorme. Mas você já pensou em usar essa tecnologia a favor do seu negócio? Usar essa tecnologia para gerar relevância para sua marca, atrair seguidores e gerar mais oportunidades de negócio para você?
+Separei aqui 3 tecnologias disponíveis no mercado para você começar a bombar produzindo conteúdos relevantes e distribuindo de forma online.
+
+
+<.subtítulo>Twich <inserir link- www.twitch.tv/>
+ twitch_inicio 
+
+Criado em 2011, o Twich é uma plataforma para fazer transmissões ao vivo, semelhante ao que é oferecido pelo Facebook e o Instagram, mas a grande sacada desta plataforma, é ser voltada quase exclusivamente para gamers, pois os conteúdos postados lá geralmente são partidas de campeonatos e jogos de jogadores recordistas em jogos como League of Legends, Super Mario e jogos de poker.
+<.subtítulo>Como funciona?
+Para os usuários, é necessário realizar um cadastro pelo site ou baixar o app, disponível para Android ou IOS. Para os criadores de conteúdo, é necessário, além de criar uma conta, instalar um  Software de transmissão, entre as opções disponíveis no mercado, pagas e gratuitas, um que é bem bacana é o Open Broadcasd Studio. 
+<inserir link https://obsproject.com/pt-br/download>. Ah, ele tem também uma versão desktop, para facilitar a transmissão pelo PC.
+ 
+<.subtítulo>Ustream <colocar link https://video.ibm.com/>
+  
+
+Comprado pela gigante IBM em janeiro de 2016, após deixar o Youtube assustado pela popularidade, esse serviço de streaming ganhou maior relevância após fazer parcerias estratégicas com celebridades como Miley Cyrus, atualmente a plataforma permite transmitir ao vivo, gravar, compartilhar nas redes sociais e gerenciar o engajamento dos conteúdos transmitidos, tudo pela mesma plataforma. 
+<.subtítulo>Como funciona?
+Como é uma alternativa mais robusta e possibilita a conexão com outras tecnologias da IBM, o preço pode ser um pouco salgado e varia entre $99 e $999 para planos com mais horas de visualização inclusas, sendo possível fechar um plano customizado com um dos consultores e utilizar a versão trial da plataforma, que oferece 30 dias de avaliação gratuitos, porém sem todas as funcionalidades da versão premium e com um número de espectadores simulta e no site há vários cases de sucesso <inserir link> de empresas que já utilizaram plataforma.
+
+
+<.subtítulo>LiveStream <inserir link https://livestream.com/>
+  
+
+Fundada em 2007, esta plataforma de streaming é considerada por muitos como a melhor do segmento, por ser intuitiva para o usuário e ter boas funcionalidades na versão gratuita. 
+<.subtítulo>Como funciona?
+Nesse app, quando você cria um evento, automaticamente cria um canal e pode compartilhar essa URL para que a sua audiência te encontre, sendo possível inclusive criar banners com as suas fotos da galeria e compartilhar este arquivo em suas redes sociais. Também é possível postar outras mídias em tempo real, como fotos e videoclipes e moderar os comentários para que só apareçam na live os que você achar relevantes. Além disso o app permite conectar outros dispositivos, como celular para capturar imagens e transmitir seu evento em HD. 
+Para o usuário, o acesso é gratuito, sendo necessário apenas possuir o link do que deseja assistir. Para o produtor de conteúdo existe a versão Premium por $79 Trumps e a versão Enterprise por $999 Trumps e entre outros recursos deste app está a possibilidade de o criador de conteúdo poder customizar o player de vídeo para que não apareça a marca da Livestream e também monetizar o canal criado através de assinaturas.
+<.subtítulo>Dica bônus
+Além das plataformas citadas acima, podemos citar o LiveCast <inserir link http://www.livecast.com/>, o Google+ Hangouts On Air <http://www.google.com/+/learnmore/hangouts/onair.html>, e Facebook Live <inserir link https://live.fb.com/> e a nova funcionalidade IGVT do Instagram, que permite fazer transmissões com até uma hora de duração e é ótima nos casos em que a  sua empresa já tem um público consolidado nesta rede social (ou quer consolidar).
+E aí? Já escolheu a ferramenta que mais atende a sua empresa? Se quiser saber mais sobre como fazer a sua transmissão ao vivo, acesse o nosso o link <incluir link que direciona para página de formulário> e baixe nosso infográfico gratuito.
