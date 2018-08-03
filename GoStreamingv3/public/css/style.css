@@ -1,0 +1,70 @@
+.card{
+	margin-bottom: 10px;
+}
+.formTop{
+	position: sticky;
+	top:96px;
+}
+
+footer a{
+	color: white;
+	font-size: 40px;
+}
+footer .copyright{
+	font-size: 10px;
+}
+main .posts{
+	box-shadow: 4px 4px 5px #eee;
+}
+header .meuMenu{
+	box-shadow: 0 4px 10px #888;
+	display: flex;
+	justify-content: space-between;
+}
+header .itemMenu{
+	flex-grow: 0;
+}
+body {
+	background-color: #E6E6E6;
+	font-family:'arial'; 
+	color:#424242;
+}
+footer{
+	background-color: #B20A00;
+}
+.titulo-pr{
+	font-family: 'Roboto', sans-serif;
+}
+.titulo{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color:#B40404;
+
+}
+
+.subtitulo{
+	font-family:'arial'; 
+	font-style: italic;
+}
+.link-redes{
+	color: grey;
+	font-size: 50px;
+}
+.link-redes:hover{
+	color: red;
+	font-size: 50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media(max-width: 768px){
+.formTop{
+	order: -1;
+	position: static;
+	top: 0px;
+}
+.logoMenu{
+	width: 200px;
+}
+}
